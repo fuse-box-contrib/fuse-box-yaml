@@ -1,0 +1,30 @@
+{
+  "name": "fuse-box-yaml",
+  "version": "1.0.0",
+  "keywords": [
+    "fuse-box",
+    "yaml",
+    "yml"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/maximkott/fuse-box-yaml"
+  },
+  "author": "Maxim Kott",
+  "license": "MIT",
+  "description": "Load YAML files with fuse-box",
+  "main": "dist/cjs/index.js",
+  "types": "dist/cjs/index.d.ts",
+  "scripts": {
+    "dev": "fusox src dist --library --cjs",
+    "prod": "fusox src dist --library --cjs --production"
+  },
+  "dependencies": {
+    "js-yaml": "^3.10.0"
+  },
+  "devDependencies": {
+    "@types/js-yaml": "^3.10.1",
+    "@types/node": "^9.4.6",
+    "fusox": "^1.17.0"
+  }
+}
