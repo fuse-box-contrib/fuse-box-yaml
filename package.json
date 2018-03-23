@@ -8,7 +8,7 @@
   ],
   "repository": {
     "type": "git",
-    "url": "https://github.com/maximkott/fuse-box-yaml"
+    "url": "https://github.com/fuse-box-contrib/fuse-box-yaml"
   },
   "author": "Maxim Kott",
   "license": "MIT",
